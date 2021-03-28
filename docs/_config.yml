@@ -2,20 +2,24 @@ plugins:
   - jekyll-sitemap
 
 collections:
-  authors:
+  photo_albums:
     output: true
 
 defaults:
   - scope:
       path: ""
-      type: "authors"
-    values:
-      layout: "author"
-  - scope:
-      path: ""
       type: "posts"
     values:
       layout: "post"
+  - scope:
+      path: ""
+      type: "photo_albums"
+    values:
+      layout: "photo_album"
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
   - scope:
       path: ""
     values:

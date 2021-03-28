@@ -1,0 +1,11 @@
+---
+layout: default
+title: Photo Albums
+---
+<h1>Photo Albums</h1>
+
+<ul>
+{% for photo_album in site.photo_albums %}
+  <li><a href="{{ photo_album.url }}">{{ photo_album.title }}</a>
+{% endfor %}
+</ul>
