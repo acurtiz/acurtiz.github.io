@@ -1,5 +1,66 @@
+body {
+    background-image: url("/assets/img/background_tile.png");
+    font-family: georgia,serif;
+    color: white;
+}
+
+a:link {
+    color: #FFFFFF;  
+}
+
+a:visited {
+    color: #FFFFFF;
+}
+
+a:hover {
+    color: #CCCCCC;
+}
+
+a:active {
+    color: #BBBBBB;
+}
+
 .current {
     color: green;
+}
+
+div.navigation-element {
+    border-radius: 25px;
+    border-style: solid;
+    border-color: white;
+    background: black;
+    padding: 20px;
+    margin: 20px;
+    width: auto;
+    height: auto;
+    float: left;
+}
+
+div.clearfix {
+    clear: both;
+    display: block;
+}
+
+div.title {
+    border-radius: 25px;
+    border-style: solid;
+    border-color: white;
+    background: black;
+    padding: 20px;
+    margin: 20px;
+    width: auto;
+    height: auto;
+}
+
+div.body {
+    border-radius: 25px;
+    border-style: solid;
+    border-color: white;
+    background: black;
+    padding: 20px;
+    margin: 20px;
+    width: auto;
+    height: auto;
 }
 
 div.photo-container {
