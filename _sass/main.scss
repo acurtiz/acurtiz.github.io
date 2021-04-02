@@ -1,7 +1,6 @@
 body {
-    background-image: url("/assets/img/background.svg");
     background-size: 100px 100px;
-    background-color: #000000;
+    background: #FFE5B4;
     font-family: georgia,serif;
     color: white;
 }
@@ -27,10 +26,10 @@ a:active {
 }
 
 div.navigation-element {
-    border-radius: 25px;
+    border-radius: 3px;
     border-style: solid;
-    border-color: white;
-    background: black;
+    border-color: brown;
+    background-color: #954535;
     padding: 20px;
     margin: 20px;
     width: auto;
@@ -44,10 +43,10 @@ div.clearfix {
 }
 
 div.title {
-    border-radius: 25px;
+    border-radius: 3px;
     border-style: solid;
-    border-color: white;
-    background: black;
+    border-color: brown;
+    background-color: #954535;
     padding: 20px;
     margin: 20px;
     width: auto;
@@ -55,12 +54,12 @@ div.title {
 }
 
 div.body {
-    border-radius: 25px;
+    border-radius: 3px;
     border-style: solid;
-    border-color: white;
-    background: black;
+    border-color: brown;
+    background-color: #954535;
     padding: 20px;
-    margin: 20px;
+    margin: 40px 20px 40px 20px; /* 40px to avoid margin collapse between body and title */
     width: auto;
     height: auto;
 }
