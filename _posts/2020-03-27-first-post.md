@@ -19,3 +19,6 @@ And here is my grocery lists:
     * Mushrooms
     * Bell pepper
 * Milk
+
+<div class="circles">
+</div>
