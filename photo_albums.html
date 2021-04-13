@@ -2,16 +2,9 @@
 layout: default
 title: Photo Albums
 ---
-<div class="title">
-  <h1>Photo Albums</h1>
-</div>
 
-<div class="body">
-  <ul>
-    {% for photo_album in site.photo_albums %}
-    <li>
-      <a href="{{ photo_album.url }}">{{ photo_album.title }}</a>
-    </li>
-    {% endfor %}
-  </ul>
+<div class="body-text">
+  {% for photo_album in site.photo_albums %}
+  <a href="{{ photo_album.url }}">{{ photo_album.title }}</a><br>
+  {% endfor %}
 </div>

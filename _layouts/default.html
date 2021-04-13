@@ -6,7 +6,14 @@
     <link rel="stylesheet" href="/assets/css/styles.css">
   </head>
   <body>
-    {% include navigation.html %}
-    {{ content }}
+    <div class="main-container">
+      {% include navigation.html %}
+      <hr class="solid">
+      {{ content }}
+      <div class="bottom-bar">
+	<hr class="solid">
+	&#169 2021
+      </div>
+    </div>
   </body>
 </html>

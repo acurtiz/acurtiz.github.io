@@ -2,17 +2,9 @@
 layout: default
 title: Blog
 ---
-<div class="title">
-  <h1>Latest Posts</h1>
-</div>
 
-<div class="body">
-  <ul>
-    {% for post in site.posts %}
-    <li>
-      <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-      {{ post.excerpt }}
-    </li>
-    {% endfor %}
-  </ul>
+<div class="body-text">
+  {% for post in site.posts %}
+  <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+  {% endfor %}
 </div>

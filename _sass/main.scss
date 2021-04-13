@@ -1,40 +1,33 @@
-body {
-    background-size: 100px 100px;
-    background: #FFE5B4;
-    font-family: georgia,serif;
-    color: white;
+* {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 18px;
 }
 
-a:link {
-    color: #FFFFFF;  
+ul {
+    list-style-type: square;
+    margin: 0px 0px 0px 0px;
 }
 
-a:visited {
-    color: #FFFFFF;
+hr.solid {
+    border-top: 2px solid #bbb;
 }
 
-a:hover {
-    color: #CCCCCC;
+a:link {color:#4682b4; text-decoration:none;}
+a:visited {color: #4682b4; text-decoration: none;}
+a:hover {color: #4682b4; text-decoration: underline;}
+
+a:link.current-link {color:#8a2be2; text-decoration: none;}
+a:visited.current-link {color: #8a2be2; text-decoration: none;}
+a:hover.current-link {color: #8a2be2; text-decoration: underline;}
+
+div.nav {
+    padding: 5px 2%;
 }
 
-a:active {
-    color: #BBBBBB;
-}
-
-.current {
-    color: green;
-}
-
-div.navigation-element {
-    border-radius: 3px;
-    border-style: solid;
-    border-color: brown;
-    background-color: #954535;
-    padding: 20px;
-    margin: 20px;
-    width: auto;
-    height: auto;
-    float: left;
+div.main-container {
+    width: 80%;
+    position:center;
+    margin: 0% 10%;
 }
 
 div.clearfix {
@@ -42,31 +35,20 @@ div.clearfix {
     display: block;
 }
 
-div.title {
-    border-radius: 3px;
-    border-style: solid;
-    border-color: brown;
-    background-color: #954535;
-    padding: 20px;
-    margin: 20px;
-    width: auto;
-    height: auto;
-}
-
-div.body {
-    border-radius: 3px;
-    border-style: solid;
-    border-color: brown;
-    background-color: #954535;
-    padding: 20px;
-    margin: 40px 20px 40px 20px; /* 40px to avoid margin collapse between body and title */
-    width: auto;
-    height: auto;
-}
-
 div.photo-container {
     float: left;
     padding: 15px;
+}
+
+div.body-text {
+    padding: 5px 2%;
+}
+
+div.bottom-bar {
+    padding: 5px 0px 5px 2%; 
+    margin: 10px 0 0 0;
+    font-size: 10px;
+    float:right;
 }
 
 img {
