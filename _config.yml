@@ -11,6 +11,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+      permalink: /:collection/:name
   - scope:
       path: ""
       type: "photo_albums"
