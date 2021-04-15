@@ -4,7 +4,9 @@ title: Photo Albums
 ---
 
 <div class="body-text">
-  {% for photo_album in site.photo_albums %}
-  <a href="{{ photo_album.url }}">{{ photo_album.title }}</a><br>
-  {% endfor %}
+  <ul>
+    {% for photo_album in site.photo_albums %}
+    <li><a href="{{ photo_album.url }}">{{ photo_album.title }}</a></li>
+    {% endfor %}
+  </ul>
 </div>

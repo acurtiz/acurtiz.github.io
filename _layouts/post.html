@@ -1,9 +1,8 @@
 ---
 layout: default
 ---
+
 <div class="body-text">
-  <b>{{ page.title }}</b><br>
-  <b>{{ page.date | date_to_string }} - {{ page.author }}</b><br>
-  <hr class="solid">
+  <b>{{ page.title }}</b> | <b>{{ page.date | date_to_string }} - {{ page.author }}</b>
   {{ content }}
 </div>
