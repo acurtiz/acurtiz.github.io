@@ -3,17 +3,33 @@
     font-size: 22px;
 }
 
+h1 {
+    font-size: 28px;
+}
+
+h2 {
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
 blockquote {
   border-left: .25em solid #dfe2e5;
   color: #6a737d;
   padding: 0 1em;
 }
 
+
 ul {
     list-style-type: square;
     margin: 2px;
     line-height: 120%;
 }
+
+
 
 hr.solid {
     border-top: 1px solid #bbb;

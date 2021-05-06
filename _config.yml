@@ -4,6 +4,11 @@ plugins:
 collections:
   photo_albums:
     output: true
+  readings:
+    output: true
+
+kramdown:
+  auto_ids: true
 
 defaults:
   - scope:
@@ -17,6 +22,11 @@ defaults:
       type: "photo_albums"
     values:
       layout: "photo_album"
+  - scope:
+      path: ""
+      type: "readings"
+    values:
+      layout: "reading"
   - scope:
       path: "assets/img"
     values:
