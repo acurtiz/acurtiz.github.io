@@ -1,0 +1,16 @@
+---
+layout: default
+title: Stuff
+---
+
+<div class="body-text">
+  <table>
+    {% for post in site.posts %}
+    <tr>
+      <td>{{ post.date | date: '%Y %B %d' }}</td>
+      <td>{{ post.category }}</td>
+      <td><a href="{{ post.url | relative_url }}">{{ post.title }}</a></td>
+    </tr>
+    {% endfor %}
+  </table>
+</div>

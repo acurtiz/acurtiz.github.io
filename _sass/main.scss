@@ -29,7 +29,21 @@ ul {
     line-height: 120%;
 }
 
+table {
+    width: 100%;
+}
 
+tr {
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #ffcdb2;
+}
+
+td {
+    padding: 10px;
+}
 
 hr.solid {
     border-top: 1px solid #bbb;
