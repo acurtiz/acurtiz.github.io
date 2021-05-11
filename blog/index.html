@@ -1,0 +1,35 @@
+---
+layout: default
+title: Stuff
+---
+
+<div class="body-text">
+  <table>
+    {% for post in paginator.posts %}
+    <tr>
+      <td>{{ post.date | date: '%Y %B %d' }}</td>
+      <td>{{ post.category }}</td>
+      <td><a href="{{ post.url | relative_url }}">{{ post.title }}</a></td>
+    </tr>
+    {% endfor %}
+  </table>
+</div>
+
+<br>
+<hr>
+<br>
+
+<div class="body-text">
+  Current page: {{ paginator.page }} of {{ paginator.total_pages }} | 
+  {% if paginator.previous_page %}
+  <a href="{{ paginator.previous_page_path }}">Previous Page</a> |
+  {% else %}
+  Previous Page |
+  {% endif %}
+  {% if paginator.next_page %}
+  <a href="{{ paginator.next_page_path }}">Next Page</a>
+  {% else %}
+  Next Page
+  {% endif %}
+  <br>
+</div>

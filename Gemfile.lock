@@ -260,6 +260,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages (~> 213)
+  jekyll-paginate
   jekyll-sitemap
 
 BUNDLED WITH

@@ -1,8 +1,12 @@
 plugins:
   - jekyll-sitemap
+  - jekyll-paginate
 
 kramdown:
   auto_ids: true
+
+paginate: 5
+paginate_path: "/blog/page:num/"
 
 defaults:
   - scope:
