@@ -1,6 +1,6 @@
 ---
 layout: post
-category: Writing
+category: Blog Post
 ---
 
 Hello hello!
