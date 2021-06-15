@@ -6,18 +6,20 @@ layout: default
   <b>{{ page.title }}</b>
 </div>
 
+{% for image_group in page.images %}
 <div class="body-text">
-  {{ page.description }}
+  {{ image_group.description }}
   <div class="clearfix"></div>
   {% assign image_files = site.static_files | where: "image", true %}
   {% for myimage in image_files %}
-  {% if myimage.path contains page.image_directory %}
-  <div class="photo-container">
+  {% if myimage.path contains image_group.directory %}
+  <div class="image-container">
     <a href="{{ myimage.path }}"><img src="{{ myimage.path }}"></a>
   </div>
   {% endif %}
   {% endfor %}
   <div class="clearfix"></div>
 </div>
+{% endfor %}
 
 {{ content }}
