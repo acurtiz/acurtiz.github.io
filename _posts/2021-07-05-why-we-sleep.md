@@ -78,7 +78,22 @@ The reproductive system is also at play. Reproductive hormones, reproductive org
 The immune system is another area. One interesting study showed that sleep impacted the response to a standard flu vaccine significantly. Those with adequate sleep generated a powerful antibody response to the vaccine, whereas those with sleep restriction had a much smaller immune response. Similar to memory, with the immune system catch up sleep cannot restore all the benefits of sleep to the level of having gotten consistent good sleep in the first place. Studies have also shown that cancer-fighting immune cells are much less prevalent in those with sleep deprivation. Many epidemiological studies have shown that nightime shift work increases the odds of developing some forms of cancer.
 
 # Part 3: How and Why We Dream
-TBD
+
+Dreaming occurs during REM sleep. Four main clusters of the brain spike in activity during dreaming: the visuospatial regions at the back of the brain, the motor cortex which supports movement of the body, the hippocampus and surrounding regions which support autobiographical memory, and the amygdala and cingulate cortex - the emotional centers of the brain. Some other regions of the brain such as the prefrontal cortex (which supports rational thought) actually decrease significantly in activity during dreaming.
+
+Scientists have been able to actually decipher general content of a dream (e.g. this person was dreaming of a car) using brain scans during dreaming.
+
+What is the purpose of dreaming? What function does it fulfill?
+
+The first function of dreaming is to nurse our emotional and mental health. It's been shown that those who dream about painful experiences around the time they happen actually experience more emotional recovery from those painful experiences compared to those who do not dream about those experiences. Noradrenaline in the brain blocks the ability to enter REM sleep; studies indicate that this is an underlying mechanism to PTSD; noradrenaline prevents the subject from entering REM sleep and thus dreaming, and thus dreaming cannot afford the subject some emotional calm.
+
+A second function of dreaming is to tune the brain's emotional instrumentation, which allows accurately perceiving emotions of others. At a high level, dreaming appears to be critical to the sociability of humans.
+
+A third function of dreaming is to inspire creativity and promote problem solving. An example perhaps best supports this. Mendeleev thought there was an organizational logic to the known elements in the universe. He made a set of cards which each represented an element. He tried to use these to figure out that overall organizational structure. After apparently not sleeping for three days and nights, he slept and during that sleep he dreamt of the proper organization. The answer to the puzzle was reached. This was the discovery of the periodic table of elements.
+
+Another interesting story is related. Thomas Edison would supposedly position a chair with armrests at the side of his desk. He had a metal saucepan turned upside down on the floor directly below the right armrest. He would hold a few ball bearings in his right hand, and then allow himself to sleep. At the moment he began to dream, his muscle tone would relax (this happens because the brain paralyzes voluntary muscles during REM sleep) and thus he would drop the ball bearings which would crash on the saucepan and wake him up. He would then write down any creative ideas in his head at that moment.
+
+Lucid dreaming is another interesting area. Science has been able to recognize lucid dreaming as a real, repeatable observation because voluntary eye movement is *not* blocked during REM sleep. Thus lucid dreamers have been able to communicate with experimenters who were scanning their brains; the brain patterns showed the subjects were dreaming.
 
 # Part 4: From Sleeping Pills to Society Transformed
 TBD
