@@ -96,5 +96,21 @@ Another interesting story is related. Thomas Edison would supposedly position a 
 Lucid dreaming is another interesting area. Science has been able to recognize lucid dreaming as a real, repeatable observation because voluntary eye movement is *not* blocked during REM sleep. Thus lucid dreamers have been able to communicate with experimenters who were scanning their brains; the brain patterns showed the subjects were dreaming.
 
 # Part 4: From Sleeping Pills to Society Transformed
-TBD
 
+There are a number of sleep disorders that affect humans. Perhaps none is more prevalent than insomnia. One of the most common culprits of insomnia is an overactive sympathetic nervous system.
+
+Much of our modern lifestyle has transformed our sleep, and not in a positive direction. We'll explore that here.
+
+Exposure to artificial light can harm our sleep quality. How do we mitigate that? First, we can create lowered, dim light in rooms where evening hours are spent (avoid powerful overhead lights, favor mood lighting). Wearing yellow-tinted glasses which filter out blue light (which suppresses melatonin release) is a more drastic option. Maintaining complete darkness throughout the night is critical as well (e.g. use blackout curtains).
+
+Alcohol is also bad for sleep. Alcohol suppresses REM sleep and also harms learning. It's best to actually drink in the morning so it's out of your system by the time you sleep.
+
+Body temperature is important for sleep. A lower body temperature aides in sleep. A bedroom temperature of around 65F/18C is a good goal. A hot bath before bed actually helps because blood rushes to the surface of the skin, and those surface blood vessels are able to radiate out inner heat faster which results in the body cooling more efficiently. Hot baths before sleep have been shown to induce 10 to 15 percent more deep NREM sleep in healthy adults.
+
+Waking up at the same time of day, ever day is the ideal. A stable sleep schedule is one of the most consistent and effective ways of ensuring good sleep.
+
+Sleeping pills are actually quite harmful. The book goes into a lot of detail as to why and how. The salient point is to avoid them. Alternatives such as CBT-I have been shown to be much more useful already.
+
+Other sleep suggestions are to establish regular bedtime and wake-up time, to go to bed only when sleepy and avoid early evening sleeping on the couch, to never lie awake in bed for much time (get out of bed instead), to avoid daytime napping if having difficulty sleeping at night, to reduce anxiety-provoking thoughts by decelerating before bed, and remove visible clock faces from view in the bedroom.
+
+This section of the book also goes into some detail about society's view on sleep at large. This is an interesting section but I won't recount it here.
