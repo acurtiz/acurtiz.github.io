@@ -1,0 +1,18 @@
+book_notes:
+    display-name: "Book Notes"
+    default-icon: "/assets/img/icon/default/book_notes.png"
+game:
+    display-name: "Game"
+    default-icon: "/assets/img/icon/default/game.png"
+travel:
+    display-name: "Travel"
+    default-icon: "/assets/img/icon/default/travel.png"
+cats:
+    display-name: "Cats"
+    default-icon: "/assets/img/icon/default/cats.png"
+project:
+    display-name: "Project"
+    default-icon: "/assets/img/icon/default/project.png"
+image_album:
+    display-name: "Photo Album"
+    default-icon: "/assets/img/icon/default/image_album.png"

@@ -1,6 +1,6 @@
 ---
 layout: "image_album"
-category: "Cats"
+category: cats
 title: "The Five Kittens!"
 images:
  - directory: "/assets/img/2021_the_five_cats/group"

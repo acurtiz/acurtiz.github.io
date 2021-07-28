@@ -1,6 +1,6 @@
 ---
 layout: post
-category: Book Notes
+category: book_notes
 book_title: "Why We Sleep"
 ---
 

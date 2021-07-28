@@ -1,6 +1,6 @@
 ---
 layout: "image_album"
-category: "Photo Album"
+category: image_album
 title: "SHMonsterArts"
 images:
  - directory: "/assets/img/2021_shmonsterarts_godzilla"

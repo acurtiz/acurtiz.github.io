@@ -1,6 +1,6 @@
 ---
 layout: "image_album"
-category: "Cats"
+category: cats
 title: "Reminisce: Barbara and Bill"
 images:
  - directory: "/assets/img/2020_bill_and_barbara"

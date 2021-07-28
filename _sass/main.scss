@@ -66,6 +66,7 @@ a:link.current-link { color:#8a2be2; text-decoration: none; }
 a:visited.current-link { color: #8a2be2; text-decoration: none; }
 a:hover.current-link { color: #8a2be2; text-decoration: underline; }
 
+
 div.nav {
     padding: 5px 2%;
 }
@@ -97,13 +98,22 @@ div.bottom-bar {
     float: right;
 }
 
-img {
+img.photo-album {
   border: 1px solid #ddd;
   border-radius: 4px;
   padding: 5px;
   width: 150px;
 }
 
-img:hover {
+img.photo-album:hover {
   box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
+
+img.post-icon {
+  width: 32px;
+  vertical-align: middle;
+}
+
+
+
+

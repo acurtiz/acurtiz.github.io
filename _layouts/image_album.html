@@ -14,7 +14,7 @@ layout: default
   {% for myimage in image_files %}
   {% if myimage.path contains image_group.directory %}
   <div class="image-container">
-    <a href="{{ myimage.path }}"><img src="{{ myimage.path }}"></a>
+    <a href="{{ myimage.path }}"><img class="photo-album" src="{{ myimage.path }}"></a>
   </div>
   {% endif %}
   {% endfor %}

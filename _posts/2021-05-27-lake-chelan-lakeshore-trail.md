@@ -1,6 +1,6 @@
 ---
 layout: "image_album"
-category: "Travel"
+category: travel
 title: "Lake Chelan Lakeshore Trail"
 images:
  - directory: "/assets/img/2021_lake_chelan"
