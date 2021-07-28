@@ -1,10 +1,10 @@
 ---
 layout: "image_album"
 category: "Cats"
-title: "The Five Cats!"
+title: "The Five Kittens!"
 images:
  - directory: "/assets/img/2021_the_five_cats/group"
-   description: "I started fostering five kittens in July 2021. This is the biggest batch I've taken at once. They're an incredibly playful and affectionate bunch."
+   description: "I started fostering five kittens in July 2021. As I write this, they are still staying with me! This is the biggest batch I've taken at once. They're an incredibly playful and affectionate bunch."
  - directory: "/assets/img/2021_the_five_cats/poppy"
    description: "Poppy is the most affectionate of the bunch - she's a sweet girl."
  - directory: "/assets/img/2021_the_five_cats/spike"
