@@ -1,0 +1,31 @@
+---
+category: game
+layout: post
+title: "Language Match"
+---
+
+<br>
+This is a small application to assist in practicing language learning. This was written in C++ using SDL2.0, and was cross-compiled to WebAssembly / JS using Emscripten.
+<br>
+<br>
+<style>
+  canvas.emscripten {
+      border: 0px none;
+      background-color: black;
+  }
+</style>
+
+<script type='text/javascript'>
+  var Module = {
+      'print': function(text) { console.log('stdout: ' + text) },
+      'printErr': function(text) { console.log('stderr: ' + text) },
+      'locateFile': function(path, prefix) {
+          var modified_path = "/assets/js/word-match/" + path;
+	  return modified_path;
+      }
+  };
+</script>
+<script async src="/assets/js/word-match/CrossLanguageMatch.js"></script>
+<center>
+  <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" tabindex=-1></canvas>
+</center>
