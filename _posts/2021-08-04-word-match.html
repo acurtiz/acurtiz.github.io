@@ -14,34 +14,8 @@ This is a small application to assist in practicing language learning. This was 
 <br>
 
 <canvas id="canvas" oncontextmenu="event.preventDefault()"></canvas><br><br>
-<input type="file" id="inputfile"><br><br>
-<button onclick="useFileInput(document.getElementById('inputfile'))">Submit</button><br>
-<hr>
-<p>Currently loaded file: </p><div id="currently_loaded_file">None</div>
 
 <script type='text/javascript'>
-  
-  function useFileInput(fileInput) {
-
-      let fileBlob = fileInput.files[0];
-      
-      if (fileBlob.length == 0) {
-          return;
-      }
-      
-      var reader = new FileReader();
-      
-      reader.onload = function () {
-	  var data_str = reader.result;
-	  Module.ccall('persist_file', null, ["string"], [data_str]);
-      };
-
-      reader.readAsText(fileBlob);
-
-      fileNameWithoutFakePath = fileInput.value.match(/[^\\/]*$/)[0];
-      document.getElementById("currently_loaded_file").innerHTML = fileNameWithoutFakePath;
-      
-  }
 
   var Module = {
       print: function(text) {
@@ -66,8 +40,7 @@ This is a small application to assist in practicing language learning. This was 
       })()
   };
   
-</script>
+ </script>
 
-<script async src="/assets/js/word-match/CrossLanguageMatch.js">
-</script>
+<script async src="/assets/js/word-match/CrossLanguageMatch.js"></script>
 
