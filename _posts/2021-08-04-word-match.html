@@ -12,6 +12,9 @@ title: "Cross Language Match"
 This is a small application to assist in practicing language learning. This was written in C++ using SDL2.0, and was cross-compiled to WebAssembly / JS using Emscripten.
 <br>
 <br>
+Check it out! You can download this <a href="/assets/other/cross-language-match/sample-word-pairs.txt">sample text file</a> to use as input when prompted, and from there you can pretty easily make your own input files to practice the words you want to practice most.
+<br>
+<br>
 
 <canvas id="canvas" oncontextmenu="event.preventDefault()"></canvas><br><br>
 
@@ -25,7 +28,7 @@ This is a small application to assist in practicing language learning. This was 
 	  console.log('stderr: ' + text)
       },
       locateFile: function(path, prefix) {
-          var modified_path = "/assets/js/word-match/" + path;
+          var modified_path = "/assets/js/cross-language-match/" + path;
 	  return modified_path;
       },
       canvas: (function() {
@@ -42,5 +45,5 @@ This is a small application to assist in practicing language learning. This was 
   
  </script>
 
-<script async src="/assets/js/word-match/CrossLanguageMatch.js"></script>
+<script async src="/assets/js/cross-language-match/CrossLanguageMatch.js"></script>
 
