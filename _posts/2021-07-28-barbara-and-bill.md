@@ -1,5 +1,5 @@
 ---
-layout: "image_album"
+layout: image_album
 category: cats
 title: "Reminisce: Barbara and Bill"
 images:

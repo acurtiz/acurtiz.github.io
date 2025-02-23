@@ -1,9 +1,15 @@
+<style>
+  {% for item in site.data.navigation %}
+  #{{ item.divid }} {
+    background-color: {{ item.color }};
+  }
+  {% endfor %}
+</style>
 <div class="nav">
   {% for item in site.data.navigation %}
-  <a href="{{ item.link }}" {% if page.url == item.link %}class="current-link"{% endif %}>{{ item.name }}</a>
-  {% if item.name != 'Stuff' %}
-  . 
-  {% endif %}
+  <div class="nav-rect" id="{{ item.divid }}">
+    <a href="{{ item.link }}" {% if page.url == item.link %}class="current-link"{% endif %}>{{ item.name }}</a>
+  </div>
   {% endfor %}
 </div>
 

@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<div class="body-text">
+  <table>
+
+    {% for post in site.posts %}
+    
+      {% if post.category != page.category-to-show %}
+        {% continue %}
+      {% endif %}
+    
+      {% assign post_icon = post.icon %}
+      {% unless post_icon %}{% assign post_icon = site.data.categories[post.category].default-icon %}{% endunless %}
+    
+      <tr>
+        <td><img class="post-icon" src="{{ post_icon }}"></img></td>
+        <td>{{ post.date | date: '%Y %B %d' }}</td>
+        <td><a href="{{ post.url | relative_url }}">{{ post.title }}</a></td>
+      </tr>
+    {% endfor %}
+
+  </table>
+</div>

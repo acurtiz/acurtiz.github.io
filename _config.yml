@@ -5,9 +5,6 @@ plugins:
 kramdown:
   auto_ids: true
 
-paginate: 10
-paginate_path: "/blog/page:num/"
-
 defaults:
   - scope:
       path: ""

@@ -1,5 +1,5 @@
 ---
-layout: "image_album"
+layout: image_album
 category: cats
 title: "Reminisce: The Four Kittens of 2020"
 images:

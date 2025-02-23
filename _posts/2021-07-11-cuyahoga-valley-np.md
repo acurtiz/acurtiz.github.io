@@ -1,6 +1,6 @@
 ---
-layout: "image_album"
-category: travel
+layout: image_album
+category: travels
 title: "Cuyahoga Valley National Park"
 images:
  - directory: "/assets/img/2021_cuyahoga_valley_np/"
