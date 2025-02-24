@@ -1,16 +1,8 @@
 - name: About
   link: /
-  color: "#33ff4c"
-  divid: about
 - name: Cats
   link: /cats/
-  color: "#a9ff33"
-  divid: cats
 - name: Projects
   link: /projects/
-  color: "#abcdef"
-  divid: projects
 - name: Travels
   link: /travels/
-  color: "#bcdefa"
-  divid: travels

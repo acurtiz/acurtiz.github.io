@@ -1,13 +1,14 @@
 <style>
   {% for item in site.data.navigation %}
-  #{{ item.divid }} {
-    background-color: {{ item.color }};
+  #nav-{{ item.name }} {
+    {% assign category_name = item.name | downcase %}
+    background-color: {{ site.data.categories[category_name].color-secondary }};
   }
   {% endfor %}
 </style>
 <div class="nav">
   {% for item in site.data.navigation %}
-  <div class="nav-rect" id="{{ item.divid }}">
+  <div class="nav-rect" id="nav-{{ item.name }}">
     <a href="{{ item.link }}" {% if page.url == item.link %}class="current-link"{% endif %}>{{ item.name }}</a>
   </div>
   {% endfor %}

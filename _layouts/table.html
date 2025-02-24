@@ -2,15 +2,29 @@
 layout: default
 ---
 
-<div class="body-text">
-  <table>
+<style>
+  {% for item in site.data.categories %}
+
+  #{{ item[0] }} tr:nth-child(even) {
+    background-color: {{ item[1].color-primary }};
+  }
+  #{{ item[0] }} tr:nth-child(odd) {
+    background-color: {{ item[1].color-secondary }};
+  }
+  {% endfor %}
+</style>
+{% include navigation.html %}
+<div style="clear:left;"></div>
+<div class="table-text">
+  <table id={{ page.category-to-show }}>
 
     {% for post in site.posts %}
-    
+
       {% if post.category != page.category-to-show %}
         {% continue %}
       {% endif %}
     
+      {% assign post_category = site.data.categories[post.category].divid %}
       {% assign post_icon = post.icon %}
       {% unless post_icon %}{% assign post_icon = site.data.categories[post.category].default-icon %}{% endunless %}
     

@@ -42,14 +42,6 @@ tr {
     text-align: left;
 }
 
-tr:nth-child(even) {
-    background-color: #ffcdb2;
-}
-
-tr:nth-child(odd) {
-    background-color: #ffb4a2;
-}
-
 td {
     padding: 10px;
 }
@@ -58,17 +50,17 @@ hr.solid {
     border-top: 1px solid #bbb;
 }
 
-a:link { color:#4682b4; text-decoration: none; }
-a:visited { color: #4682b4; text-decoration: none; }
-a:hover { color: #4682b4; text-decoration: underline; }
+a:link { color:#000000; text-decoration: none; }
+a:visited { color: #000000; text-decoration: none; }
+a:hover { color: #000000; text-decoration: underline; }
 
-a:link.current-link { color:#8a2be2; text-decoration: none; }
-a:visited.current-link { color: #8a2be2; text-decoration: none; }
-a:hover.current-link { color: #8a2be2; text-decoration: underline; }
+a:link.current-link { color:#ffffff; text-decoration: none; }
+a:visited.current-link { color: #ffffff; text-decoration: none; }
+a:hover.current-link { color: #ffffff; text-decoration: underline; }
 
 
 div.nav {
-    padding: 5px 2%;
+    padding: 5px 0%;
 }
 
 div.main-container {
@@ -89,7 +81,24 @@ div.image-container {
 
 div.body-text {
     padding: 0% 2%;
+    color: #000000;
 }
+
+div.body-home {
+    padding: 2% 2%;
+    color: #000000;
+    background-color: #a87932;
+}
+
+div.table-text {
+    padding: 0% 0%;
+    color: #ffffff;
+    background-color: #a87932;
+}
+
+div.table-text a:link { color:#ffffff; text-decoration: none; }
+div.table-text a:visited { color: #ffffff; text-decoration: none; }
+div.table-text a:hover { color: #ffffff; text-decoration: underline; }
 
 div.bottom-bar {
     padding: 5px 0px 5px 2%; 
