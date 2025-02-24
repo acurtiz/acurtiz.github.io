@@ -1,40 +1,4 @@
-<style>
-  div.nav {
-    flex-wrap: nowrap;
-    display: flex;
-  }
-  div.nav-rect {
-    padding: 10px;
-    float: left;
-    height: 50px;
-    width: auto;
-    border-bottom-color: #000000;
-    border-bottom-style: solid;
-    border-bottom-width: 2px;
-  }
-  div.nav-current {
-    padding: 10px;
-    float: left;
-    height: 50px;
-    width: auto;
-    border-bottom-style: none;
-  }
-  #nav-end {
-    background-color: #ffffff;
-    width: 100%;
-    float: left;
-    border-bottom-color: #000000;
-    border-bottom-style: solid;
-    border-bottom-width: 2px;
-  }
-  {% for item in site.data.navigation %}
-  {% assign category_name = item.name | downcase %}
-  #nav-{{ category_name }} {
-    background-color: {{ site.data.categories[category_name].color-secondary }};
-  }
-  {% endfor %}
-</style>
-<div class="nav">
+<div id="nav-bar">
   {% for item in site.data.navigation %}
     {% assign category_name = item.name | downcase %}
     {% if page.url contains category_name %} 
