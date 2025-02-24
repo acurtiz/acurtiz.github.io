@@ -10,7 +10,7 @@ defaults:
       path: ""
       type: "posts"
     values:
-      permalink: /:collection/:name
+      permalink: /:categories/:name
   - scope:
       path: "assets/img"
     values:

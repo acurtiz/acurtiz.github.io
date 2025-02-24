@@ -58,11 +58,6 @@ a:link.current-link { color:#ffffff; text-decoration: none; }
 a:visited.current-link { color: #ffffff; text-decoration: none; }
 a:hover.current-link { color: #ffffff; text-decoration: underline; }
 
-
-div.nav {
-    padding: 5px 0%;
-}
-
 div.main-container {
     width: 60%;
     position: center;
@@ -110,6 +105,8 @@ div.bottom-bar {
 div.nav-rect {
     padding: 10px;
     float: left;
+    height: 50px;
+    width: auto;
 }
 
 img.photo-album {

@@ -1,16 +1,56 @@
 <style>
+  div.nav {
+    flex-wrap: nowrap;
+    display: flex;
+  }
+  div.nav-rect {
+    padding: 10px;
+    float: left;
+    height: 50px;
+    width: auto;
+    border-bottom-color: #000000;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+  }
+  div.nav-current {
+    padding: 10px;
+    float: left;
+    height: 50px;
+    width: auto;
+    border-bottom-style: none;
+  }
+  #nav-end {
+    background-color: #ffffff;
+    width: 100%;
+    float: left;
+    border-bottom-color: #000000;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+  }
   {% for item in site.data.navigation %}
-  #nav-{{ item.name }} {
-    {% assign category_name = item.name | downcase %}
+  {% assign category_name = item.name | downcase %}
+  #nav-{{ category_name }} {
     background-color: {{ site.data.categories[category_name].color-secondary }};
   }
   {% endfor %}
 </style>
 <div class="nav">
   {% for item in site.data.navigation %}
-  <div class="nav-rect" id="nav-{{ item.name }}">
-    <a href="{{ item.link }}" {% if page.url == item.link %}class="current-link"{% endif %}>{{ item.name }}</a>
-  </div>
+    {% assign category_name = item.name | downcase %}
+    {% if page.url contains category_name %} 
+    <div class="nav-current" id="nav-{{ category_name }}">
+      <a href="{{ item.link }}" {% if page.url == item.link %}class="current-link"{% endif %}>{{ item.name }}</a>
+    </div>
+    {% elsif page.url == "/" and category_name == "about" %}
+    <div class="nav-current" id="nav-{{ category_name }}">
+      <a href="{{ item.link }}" {% if page.url == item.link %}class="current-link"{% endif %}>{{ item.name }}</a>
+    </div>
+    {% else %}
+    <div class="nav-rect" id="nav-{{ category_name }}">
+      <a href="{{ item.link }}" {% if page.url == item.link %}class="current-link"{% endif %}>{{ item.name }}</a>
+    </div>
+    {% endif %}
   {% endfor %}
+  <div class="nav-rect" id="nav-end"></div>
 </div>
 
