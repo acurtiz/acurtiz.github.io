@@ -37,7 +37,7 @@ div.nav-current {
 {% for item in site.data.navigation %}
   {% assign category_name = item.name | downcase %}
   #nav-{{ category_name }} {
-    background-color: {{ site.data.categories[category_name].color-secondary }};
+    background-color: {{ site.data.categories[category_name].color-primary }};
   }
 {% endfor %}
 

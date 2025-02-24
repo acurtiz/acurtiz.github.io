@@ -6,10 +6,10 @@ layout: default
   {% for item in site.data.categories %}
 
   #{{ item[0] }} tr:nth-child(even) {
-    background-color: {{ item[1].color-primary }};
+    background-color: {{ item[1].color-secondary }};
   }
   #{{ item[0] }} tr:nth-child(odd) {
-    background-color: {{ item[1].color-secondary }};
+    background-color: {{ item[1].color-primary }};
   }
   {% endfor %}
 </style>
@@ -29,9 +29,8 @@ layout: default
       {% unless post_icon %}{% assign post_icon = site.data.categories[page.category-to-show].default-icon %}{% endunless %}
     
       <tr>
-        <td><img class="post-icon" src="{{ post_icon }}"></img></td>
-        <td>{{ post.date | date: '%Y %B %d' }}</td>
-        <td><a href="{{ post.url | relative_url }}">{{ post.title }}</a></td>
+        <td style="width: 50px"><img class="post-icon" src="{{ post_icon }}"></img></td>
+        <td><a href="{{ post.url | relative_url }}">{{post.date | date: '%Y-%m'}}: {{ post.title }}</a></td>
       </tr>
     {% endfor %}
 

@@ -5,13 +5,13 @@ about:
 travels:
     display-name: "Travels"
     default-icon: "/assets/img/icon/default/travels.png"
-    color-primary: "#4b256d"
-    color-secondary: "#645495"
+    color-primary: "#645495"
+    color-secondary: "#4b256d"
 cats:
     display-name: "Cats"
     default-icon: "/assets/img/icon/default/cats.png"
-    color-primary: "#3f647e"
-    color-secondary: "#688fad" 
+    color-primary: "#ee9b00"
+    color-secondary: "#ca6702" 
 projects:
     display-name: "Projects"
     default-icon: "/assets/img/icon/default/projects.png"

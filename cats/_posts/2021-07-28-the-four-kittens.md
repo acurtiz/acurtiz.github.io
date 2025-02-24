@@ -1,6 +1,6 @@
 ---
 layout: image_album
-title: "Reminisce: The Four Kittens of 2020"
+title: "The Four Kittens of 2020"
 images:
  - directory: "/assets/img/2020_the_four_kittens/group"
    description: "The first set of cats I ever took care of was a group of four over the summer of 2020. It was a lot to bite off at once, but it ended up working out really well. They were a lot of fun to have around while working from home due to COVID-19! Last I heard, they're all doing really well at their permanent homes!"
