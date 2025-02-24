@@ -12,6 +12,7 @@ div.nav-rect {
   height: 50px;
   width: auto;
   border-bottom: 2px solid #000000;
+  border-radius: 20% 20% 0% 0%;
 }
 
 div.nav-current {
@@ -23,6 +24,7 @@ div.nav-current {
   border-top: 2px solid #000000;
   border-left: 2px solid #000000;
   border-right: 2px solid #000000;
+  border-radius: 20% 20% 0% 0%;
 }
 
 #nav-end {
