@@ -1,19 +1,19 @@
 about:
     display-name: "About"
-    color-primary: "#a87932"
-    color-secondary: "#a87932"
+    color-primary: "#ef3e5b"
+    color-secondary: "#f26279"
 travels:
     display-name: "Travels"
     default-icon: "/assets/img/icon/default/travels.png"
-    color-primary: "#690a64"
-    color-secondary: "#580a69"
+    color-primary: "#4b256d"
+    color-secondary: "#645495"
 cats:
     display-name: "Cats"
     default-icon: "/assets/img/icon/default/cats.png"
-    color-primary: "#0a1a69"
-    color-secondary: "#0a2369" 
+    color-primary: "#3f647e"
+    color-secondary: "#688fad" 
 projects:
     display-name: "Projects"
     default-icon: "/assets/img/icon/default/projects.png"
-    color-primary: "#0f690a"
-    color-secondary: "#195708" 
+    color-primary: "#00b0b2"
+    color-secondary: "#52ccce" 

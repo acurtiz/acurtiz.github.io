@@ -5,6 +5,7 @@
   flex-wrap: nowrap;
   display: flex;
 }
+
 div.nav-rect {
   padding: 10px;
   float: left;
@@ -14,6 +15,7 @@ div.nav-rect {
   border-bottom-style: solid;
   border-bottom-width: 2px;
 }
+
 div.nav-current {
   padding: 10px;
   float: left;
@@ -21,6 +23,7 @@ div.nav-current {
   width: auto;
   border-bottom-style: none;
 }
+
 #nav-end {
   background-color: #ffffff;
   width: 100%;
@@ -127,10 +130,10 @@ div.body-text {
     color: #000000;
 }
 
-div.body-home {
+#body-about {
     padding: 2% 2%;
     color: #000000;
-    background-color: #a87932;
+    background-color: {{ site.data.categories["about"].color-primary }};
 }
 
 div.table-text {
