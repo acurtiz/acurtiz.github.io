@@ -138,7 +138,33 @@ div.body-text {
     border-left: 2px solid #000000;
     border-bottom: 2px solid #000000;
     border-right: 2px solid #000000;
+}
 
+#body-travels {
+    padding: 2% 2%;
+    color: #000000;
+    background-color: {{ site.data.categories["travels"].color-primary }};
+    border-left: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+    border-right: 2px solid #000000;
+}
+
+#body-cats {
+    padding: 2% 2%;
+    color: #000000;
+    background-color: {{ site.data.categories["cats"].color-primary }};
+    border-left: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+    border-right: 2px solid #000000;
+}
+
+#body-projects {
+    padding: 2% 2%;
+    color: #000000;
+    background-color: {{ site.data.categories["projects"].color-primary }};
+    border-left: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+    border-right: 2px solid #000000;
 }
 
 div.table-text {

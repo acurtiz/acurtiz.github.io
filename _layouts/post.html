@@ -2,8 +2,12 @@
 layout: default
 ---
 
-<div class="body-text">
+{% include navigation.html %}
+<div style="clear:left;"></div>
+{% assign category_name = page.categories | first %}
+<div id="body-{{ category_name }}">
   <b>{{ page.title }}</b><br/>
   <b>{{ page.date | date_to_string }}</b><br/>
   {{ content }}
 </div>
+
