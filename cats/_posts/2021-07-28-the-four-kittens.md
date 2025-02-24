@@ -1,6 +1,5 @@
 ---
 layout: image_album
-category: cats
 title: "Reminisce: The Four Kittens of 2020"
 images:
  - directory: "/assets/img/2020_the_four_kittens/group"

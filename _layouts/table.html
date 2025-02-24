@@ -19,14 +19,12 @@ layout: default
   <table id={{ page.category-to-show }}>
 
     {% for post in site.posts %}
-
-      {% if post.category != page.category-to-show %}
+      {% unless post.categories contains page.category-to-show %}
         {% continue %}
-      {% endif %}
+      {% endunless %}
     
-      {% assign post_category = site.data.categories[post.category].divid %}
       {% assign post_icon = post.icon %}
-      {% unless post_icon %}{% assign post_icon = site.data.categories[post.category].default-icon %}{% endunless %}
+      {% unless post_icon %}{% assign post_icon = site.data.categories[page.category-to-show].default-icon %}{% endunless %}
     
       <tr>
         <td><img class="post-icon" src="{{ post_icon }}"></img></td>

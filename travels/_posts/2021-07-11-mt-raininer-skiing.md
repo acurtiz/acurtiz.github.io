@@ -1,6 +1,5 @@
 ---
 layout: image_album
-category: travels
 title: "Back Country Skiing on Mount Rainier"
 images:
  - directory: "/assets/img/2021_mt_raining_skiing/start"
