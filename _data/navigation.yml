@@ -1,8 +1,8 @@
-- name: About
+- name: about
   link: /
-- name: Cats
+- name: cats
   link: /cats/
-- name: Projects
+- name: projects
   link: /projects/
-- name: Travels
+- name: travels
   link: /travels/
