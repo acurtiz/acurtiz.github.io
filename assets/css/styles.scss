@@ -1,6 +1,15 @@
 ---
 ---
 
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+
+* {
+    font-family: Consolas, monaco, monospace;
+    font-size: 22px;
+}
+
 #nav-bar {
   flex-wrap: nowrap;
   display: flex;
@@ -41,6 +50,14 @@ div.nav-current {
   #nav-{{ category_name }} {
     background-color: {{ site.data.categories[category_name].color-primary }};
   }
+  #body-{{ category_name }} {
+    padding: 2% 2%;
+    color: #000000;
+    border-left: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+    border-right: 2px solid #000000;
+    background-color: {{ site.data.categories[category_name].color-primary }};
+  }
 {% endfor %}
 
 {% for item in site.data.categories %}
@@ -52,34 +69,11 @@ div.nav-current {
   }
 {% endfor %}
 
-*, ::before, ::after {
-    box-sizing: border-box;
-}
-
-* {
-    font-family: Consolas, monaco, monospace;
-    font-size: 22px;
-}
-
-h1 {
-    font-size: 28px;
-}
-
-h2 {
-    font-size: 24px;
-    text-decoration: underline;
-}
-
-h3 {
-    text-decoration: underline;
-}
-
 blockquote {
   border-left: .25em solid #dfe2e5;
   color: #6a737d;
   padding: 0 1em;
 }
-
 
 ul {
     list-style-type: square;
@@ -129,42 +123,6 @@ div.image-container {
 div.body-text {
     padding: 0% 2%;
     color: #000000;
-}
-
-#body-about {
-    padding: 2% 2%;
-    color: #000000;
-    background-color: {{ site.data.categories["about"].color-primary }};
-    border-left: 2px solid #000000;
-    border-bottom: 2px solid #000000;
-    border-right: 2px solid #000000;
-}
-
-#body-travels {
-    padding: 2% 2%;
-    color: #000000;
-    background-color: {{ site.data.categories["travels"].color-primary }};
-    border-left: 2px solid #000000;
-    border-bottom: 2px solid #000000;
-    border-right: 2px solid #000000;
-}
-
-#body-cats {
-    padding: 2% 2%;
-    color: #000000;
-    background-color: {{ site.data.categories["cats"].color-primary }};
-    border-left: 2px solid #000000;
-    border-bottom: 2px solid #000000;
-    border-right: 2px solid #000000;
-}
-
-#body-projects {
-    padding: 2% 2%;
-    color: #000000;
-    background-color: {{ site.data.categories["projects"].color-primary }};
-    border-left: 2px solid #000000;
-    border-bottom: 2px solid #000000;
-    border-right: 2px solid #000000;
 }
 
 div.table-text {

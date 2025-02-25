@@ -2,18 +2,6 @@
 layout: default
 ---
 
-<style>
-  {% for item in site.data.categories %}
-
-  #{{ item[0] }} tr:nth-child(even) {
-    background-color: {{ item[1].color-secondary }};
-  }
-  #{{ item[0] }} tr:nth-child(odd) {
-    background-color: {{ item[1].color-primary }};
-  }
-  {% endfor %}
-</style>
-
 {% include navigation.html %}
 
 <div style="clear:left;"></div>
