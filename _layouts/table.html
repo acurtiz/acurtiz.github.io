@@ -17,7 +17,9 @@ layout: default
       {% unless post_icon %}{% assign post_icon = site.data.categories[page.category-to-show].default-icon %}{% endunless %}
     
       <tr>
-        <td style="width: 50px"><img class="post-icon" src="{{ post_icon }}"></img></td>
+        {% comment %}
+          <td style="width: 50px"><img class="post-icon" src="{{ post_icon }}"></img></td>
+        {% endcomment %}
         <td><a href="{{ post.url | relative_url }}">{{post.date | date: '%Y-%m'}}: {{ post.title }}</a></td>
       </tr>
     {% endfor %}
