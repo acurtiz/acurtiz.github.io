@@ -1,6 +1,6 @@
 This is my personal website. It's built using [Jekyll](https://jekyllrb.com/), a static site generator.
 
-## Windows:
+## On Windows:
 
 ### Pre-requisites
 
@@ -11,9 +11,11 @@ This is my personal website. It's built using [Jekyll](https://jekyllrb.com/), a
 From cloned repo, run:
 
 ```
+bundle config set --local path 'vendor/bundle'
+bundle install
 bundle exec jekyll clean
 bundle exec jekyll build --trace
 bundle exec jekyll serve
 ```
 
-This should start a server on http://localhost:4000 which you can view with any web browser.
+This should start a server on http://localhost:4000.

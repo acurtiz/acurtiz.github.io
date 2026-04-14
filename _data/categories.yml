@@ -5,15 +5,15 @@ about:
 travels:
     display-name: "Travels"
     default-icon: "/assets/img/icon/default/travels.png"
-    color-primary: "#645495"
-    color-secondary: "#4b256d"
+    color-primary: "#6e52c5"
+    color-secondary: "#684db9"
 cats:
     display-name: "Cats"
     default-icon: "/assets/img/icon/default/cats.png"
     color-primary: "#ee9b00"
-    color-secondary: "#ca6702" 
+    color-secondary: "#e19303" 
 projects:
     display-name: "Projects"
     default-icon: "/assets/img/icon/default/projects.png"
-    color-primary: "#00b0b2"
-    color-secondary: "#52ccce" 
+    color-primary: "#0fa249"
+    color-secondary: "#0d9543" 

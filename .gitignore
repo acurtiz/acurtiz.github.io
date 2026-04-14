@@ -5,3 +5,5 @@
 .DS_Store
 sitemap.xml
 _site
+vendor
+.bundle/

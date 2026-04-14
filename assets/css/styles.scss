@@ -10,6 +10,10 @@
     font-size: 22px;
 }
 
+body {
+    background-color: #51b9f5;
+}
+
 #nav-bar {
   flex-wrap: nowrap;
   display: flex;
@@ -37,7 +41,6 @@ div.nav-current {
 }
 
 #nav-end {
-  background-color: #ffffff;
   width: 100%;
   float: left;
   border-bottom-color: #000000;
