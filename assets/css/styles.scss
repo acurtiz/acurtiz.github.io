@@ -26,6 +26,7 @@ div.nav-rect {
   width: auto;
   border-bottom: 2px solid #000000;
   border-radius: 20% 20% 0% 0%;
+  white-space: nowrap;
 }
 
 div.nav-current {
@@ -38,6 +39,7 @@ div.nav-current {
   border-left: 2px solid #000000;
   border-right: 2px solid #000000;
   border-radius: 20% 20% 0% 0%;
+  white-space: nowrap;
 }
 
 #nav-end {
@@ -49,12 +51,12 @@ div.nav-current {
 }
 
 {% for entry in site.data.categories %}
-  {% assign category_name = entry[0] | downcase %}
+  {% assign category_id = entry[0] | downcase %}
   {% assign category_data = entry[1] %}
-  #nav-{{ category_name }} {
+  #nav-{{ category_id }} {
     background-color: {{ category_data.color-primary }};
   }
-  #body-{{ category_name }} {
+  #body-{{ category_id }} {
     padding: 2% 2%;
     color: #000000;
     border-left: 2px solid #000000;
@@ -62,10 +64,10 @@ div.nav-current {
     border-right: 2px solid #000000;
     background-color: {{ category_data.color-primary }};
   }
-  #{{ category_name }} tr:nth-child(even) {
+  #{{ category_id }} tr:nth-child(even) {
     background-color: {{ category_data.color-primary }};
   }
-  #{{ category_name }} tr:nth-child(odd) {
+  #{{ category_id }} tr:nth-child(odd) {
     background-color: {{ category_data.color-secondary }};
   }
 {% endfor %}

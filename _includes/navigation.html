@@ -1,18 +1,18 @@
 <div id="nav-bar">
   {% for entry in site.data.categories %}
-    {% assign category_name = entry[0] | downcase %}
+    {% assign category_key = entry[0] %}
     {% assign category = entry[1] %} 
-    {% if page.url contains category_name %} 
-    <div class="nav-current" id="nav-{{ category_name }}">
-      <a href="{{ category.link }}" {% if page.url == category.link %}class="current-link"{% endif %}>{{ category_name }}</a>
+    {% if page.url contains category_key %} 
+    <div class="nav-current" id="nav-{{ category_key }}">
+      <a href="{{ category.link }}" {% if page.url == category.link %}class="current-link"{% endif %}>{{ category.name }}</a>
     </div>
-    {% elsif page.url == "/" and category_name == "about" %}
-    <div class="nav-current" id="nav-{{ category_name }}">
-      <a href="{{ category.link }}" {% if page.url == category.link %}class="current-link"{% endif %}>{{ category_name }}</a>
+    {% elsif page.url == "/" and category_key == "about" %}
+    <div class="nav-current" id="nav-{{ category_key }}">
+      <a href="{{ category.link }}" {% if page.url == category.link %}class="current-link"{% endif %}>{{ category.name }}</a>
     </div>
     {% else %}
-    <div class="nav-rect" id="nav-{{ category_name }}">
-      <a href="{{ category.link }}" {% if page.url == category.link %}class="current-link"{% endif %}>{{ category_name }}</a>
+    <div class="nav-rect" id="nav-{{ category_key }}">
+      <a href="{{ category.link }}" {% if page.url == category.link %}class="current-link"{% endif %}>{{ category.name }}</a>
     </div>
     {% endif %}
   {% endfor %}
