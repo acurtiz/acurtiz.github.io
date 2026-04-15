@@ -1,19 +1,23 @@
 about:
     display-name: "About"
+    link: /
     color-primary: "#ef3e5b"
     color-secondary: "#f26279"
 travels:
     display-name: "Travels"
+    link: /travels/
     default-icon: "/assets/img/icon/default/travels.png"
     color-primary: "#6e52c5"
     color-secondary: "#684db9"
 cats:
     display-name: "Cats"
+    link: /cats/
     default-icon: "/assets/img/icon/default/cats.png"
     color-primary: "#ee9b00"
     color-secondary: "#e19303" 
 projects:
-    display-name: "Projects"
+    display-name: "Personal Projects"
+    link: /projects/
     default-icon: "/assets/img/icon/default/projects.png"
     color-primary: "#0fa249"
     color-secondary: "#0d9543" 

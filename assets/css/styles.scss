@@ -48,10 +48,11 @@ div.nav-current {
   border-bottom-width: 2px;
 }
 
-{% for item in site.data.navigation %}
-  {% assign category_name = item.name | downcase %}
+{% for entry in site.data.categories %}
+  {% assign category_name = entry[0] | downcase %}
+  {% assign category_data = entry[1] %}
   #nav-{{ category_name }} {
-    background-color: {{ site.data.categories[category_name].color-primary }};
+    background-color: {{ category_data.color-primary }};
   }
   #body-{{ category_name }} {
     padding: 2% 2%;
@@ -59,16 +60,13 @@ div.nav-current {
     border-left: 2px solid #000000;
     border-bottom: 2px solid #000000;
     border-right: 2px solid #000000;
-    background-color: {{ site.data.categories[category_name].color-primary }};
+    background-color: {{ category_data.color-primary }};
   }
-{% endfor %}
-
-{% for item in site.data.categories %}
-  #{{ item[0] }} tr:nth-child(even) {
-    background-color: {{ item[1].color-primary }};
+  #{{ category_name }} tr:nth-child(even) {
+    background-color: {{ category_data.color-primary }};
   }
-  #{{ item[0] }} tr:nth-child(odd) {
-    background-color: {{ item[1].color-secondary }};
+  #{{ category_name }} tr:nth-child(odd) {
+    background-color: {{ category_data.color-secondary }};
   }
 {% endfor %}
 

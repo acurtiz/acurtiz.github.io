@@ -1,17 +1,18 @@
 <div id="nav-bar">
-  {% for item in site.data.navigation %}
-    {% assign category_name = item.name | downcase %}
+  {% for entry in site.data.categories %}
+    {% assign category_name = entry[0] | downcase %}
+    {% assign category = entry[1] %} 
     {% if page.url contains category_name %} 
     <div class="nav-current" id="nav-{{ category_name }}">
-      <a href="{{ item.link }}" {% if page.url == item.link %}class="current-link"{% endif %}>{{ item.name }}</a>
+      <a href="{{ category.link }}" {% if page.url == category.link %}class="current-link"{% endif %}>{{ category_name }}</a>
     </div>
     {% elsif page.url == "/" and category_name == "about" %}
     <div class="nav-current" id="nav-{{ category_name }}">
-      <a href="{{ item.link }}" {% if page.url == item.link %}class="current-link"{% endif %}>{{ item.name }}</a>
+      <a href="{{ category.link }}" {% if page.url == category.link %}class="current-link"{% endif %}>{{ category_name }}</a>
     </div>
     {% else %}
     <div class="nav-rect" id="nav-{{ category_name }}">
-      <a href="{{ item.link }}" {% if page.url == item.link %}class="current-link"{% endif %}>{{ item.name }}</a>
+      <a href="{{ category.link }}" {% if page.url == category.link %}class="current-link"{% endif %}>{{ category_name }}</a>
     </div>
     {% endif %}
   {% endfor %}
